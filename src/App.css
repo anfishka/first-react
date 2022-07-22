@@ -2,6 +2,69 @@
   text-align: center;
 }
 
+.backgroundApp{
+  background-image: url(/public/2.jpg);
+  min-width: 25rem;
+  min-height: 60rem;
+  color: antiquewhite;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.backgroundMenu{
+  background-color: #fff;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  width: 40rem;
+  margin-left: 5rem;
+}
+
+.backgroundMenu>a{
+  text-decoration: none; 
+  color: #383e4b;
+  font-weight: bold;
+  font-size: 3rem;
+  padding: 2rem;
+
+}
+
+.backgroundPokemonTable{
+ text-align: center;
+ margin: 0;
+ padding: 2rem;
+
+}
+
+.backgroundPokemonTableDiv{
+  background-image: url(/public/3.jpg);
+  color: #e2f7fd;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+   
+}
+.backgroundPokemonTableTable{
+  width: 50rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem;
+}
+
+.backroundTh{
+  background-color: rgb(23, 99, 170);
+  border-radius: 10px;
+  padding: 0.2rem;
+}
+.backroundTbody{
+  background-color: rgba(31, 47, 58, 0.815);
+  border-radius: 10px;
+  padding: 0.2rem;
+
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -27,6 +90,7 @@
 .App-link {
   color: #61dafb;
 }
+
 
 @keyframes App-logo-spin {
   from {

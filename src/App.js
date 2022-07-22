@@ -1,13 +1,15 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import PokemonTable from './components/PokemonTable/PokemonTable';
 import Menu from './components/Menu/Menu';
 
 function App() {
   return (
-    <div>
-      <Menu />
+    <div className='backgroundApp'>
+      <Menu/>
       <p>
-        this is main page
+        
       </p>
     </div>
   );

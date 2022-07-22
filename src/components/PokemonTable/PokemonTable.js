@@ -1,25 +1,25 @@
-import pokemon from '../../assets/pokemon.json'
+import pokemon from '../../assets/pokemon.json' ////////////????????????
 import Menu from '../Menu/Menu';
 
 function PokemonTable() {
     return (
-    <>
-      <h1>
+    <div className='backgroundPokemonTableDiv'>
+      <h1 className='backgroundPokemonTable'>
         Pokemon Table
       </h1>
       <Menu />
-      <table>
+      <table className='backgroundPokemonTableTable'>
         <thead>
           <tr>
-            <th>
+            <th className='backroundTh'>
               Name
             </th>
-            <th>
+            <th className='backroundTh'>
               Type
             </th>
           </tr>
         </thead>
-        <tbody>
+        <tbody className='backroundTbody'>
           {/* переключаемся на JS */}
           {pokemon.map((onepokemon) => (
             //это уже HTML
@@ -37,7 +37,7 @@ function PokemonTable() {
           }
         </tbody>
       </table>
-    </>
+    </div>
   )
 }
 
